@@ -2,6 +2,7 @@ import pygame
 import pickle
 import sys
 import os
+from Colours import *
 
 if getattr(sys, 'frozen', False):
     Path = sys._MEIPASS
@@ -21,15 +22,7 @@ pygame.mixer.music.load('Sound/Town.mp3')
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption('The Adventures of <Insert Name Here>')
 
-# Colours
-white = (255, 255, 255)
-black = (0, 0, 0)
-Dgrey = (105, 105, 105)
-yellow = (255, 255, 7)
-green = (0, 255, 0)
-red = (255, 0, 0)
-NC = (13, 211, 2255)
-blue = (0, 0, 255)
+
 
 # Other variables
 FPS = 30
